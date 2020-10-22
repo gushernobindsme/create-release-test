@@ -1,3 +1,3 @@
 # create-release-test
 リリースノートの自動生成テスト
-v1.0.3
+v1.0.5
