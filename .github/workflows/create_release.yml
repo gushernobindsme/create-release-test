@@ -32,7 +32,7 @@ jobs:
           filterByMilestone: false
           author: true
           unreleased: false
-          sinceTag: ${{ steps.previous_tag.outputs.tag }}
+          onlyLastTag: true
           stripHeaders: true
           stripGeneratorNotice: true
       - name: Read Changelog # Workaround https://github.com/heinrichreimer/action-github-changelog-generator/issues/7
